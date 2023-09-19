@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    height: 135px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    padding: 0 130px;
+    gap: 50px;
+    position: fixed;
+    justify-content: flex-start;
+    z-index: 99;
+}
+
+#nav img {
+    height: 80px;
+}
+
+#nav h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: fixed;
+}
+
+#main {
+    position: relative;
+    background-color: rgba(239, 232, 232, 0.16);
+
+}
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#page1 h1 {
+    font-size: 55px;
+    font-weight: 900;
+    position: relative;
+
+}
+
+#page1 h1::before {
+    content: "HARDWARE ITEM. PLYWOOD. MACHINE.ETC!";
+    position: absolute;
+    color: black;
+    top: -2px;
+    left: -2px;
+    -webkit-text-stroke: 1px rgb(0, 255, 174);
+    z-index: -1;
+}
+
+#page1 h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+#page1 p {
+    font-size: 20px;
+    font-weight: 500;
+    width: 40%;
+}
+
+button {
+    background-color: black;
+    margin: 20px;
+    padding: 10px;
+    
+}
